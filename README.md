@@ -45,3 +45,9 @@ I would fill in the rest of the following parameters as follows:
 Example:
 ```python
 check_status("https://google.com", "google", "div", "id", "lga"
+```
+## Automating with `cron`
+The following will check your service(s') statuses every minute:
+```
+* * * * * /path/to/python /path/to/pystaytus.py > /dev/null
+```
