@@ -44,7 +44,7 @@ I would fill in the rest of the following parameters as follows:
 - `value_to_find`: `lga`
 Example:
 ```python
-check_status("https://google.com", "google", "div", "id", "lga"
+check_status("https://google.com", "google", "div", "id", "lga")
 ```
 ## Automating with `cron`
 The following will check your service(s') statuses every minute:
